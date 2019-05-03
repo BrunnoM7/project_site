@@ -68,7 +68,32 @@ body {
   transform: translate(0, -50%);
 }
 
-#how-it-work {
+#how-it-work, #customers {
   text-align: center;
   padding: 30px 0;
+}
+
+#customers {
+  background-color: rgb(242, 242, 242);
+}
+
+#customers .container {
+  max-width: 1000px;
+}
+
+#customers .btn {
+  margin-top: 60px;
+  background-color: rgb(220, 220, 220);
+  color: rgb(130, 130, 130);
+}
+
+#customers .btn:hover {
+  margin-top: 60px;
+  background-color: rgb(130, 130, 130);
+  color: rgb(220, 220, 220);
+}
+
+#customers .btn .material-icons {
+  vertical-align: middle;
+  font-size: 16px;
 }
