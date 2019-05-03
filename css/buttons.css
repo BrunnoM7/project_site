@@ -5,7 +5,7 @@
   border-radius: 30px;
   padding: 10px 20px;
   text-decoration: none;
-  transition: ease .5s all;
+  transition: ease .5s background-color;
 }
 
 .btn:hover {

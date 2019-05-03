@@ -1,9 +1,13 @@
 @import url('reset.css');
 @import url('grid.css');
 @import url('buttons.css');
+@import url('typography.css');
+@import url('icons.css');
+
 
 body {
   font-family: 'Open Sans', sans-serif;
+  color: rgb(130, 130, 130)
 }
 
 #header .btn {
@@ -21,7 +25,7 @@ body {
   display: inline-block;
   padding: 10px;
   border-radius: 5px;
-  transition: ease .5s all;
+  transition: ease .5s background-color;
 }
 
 #header nav a:hover, #header nav .active  {
@@ -62,4 +66,9 @@ body {
   left: 0;
   top: 50%;
   transform: translate(0, -50%);
+}
+
+#how-it-work {
+  text-align: center;
+  padding: 30px 0;
 }
