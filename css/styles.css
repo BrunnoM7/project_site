@@ -9,8 +9,10 @@
 
 body {
   font-family: 'Open Sans', sans-serif;
-  color: rgb(130, 130, 130)
+  color: rgb(130, 130, 130);
+  line-height: 25px;
 }
+
 
 #header .btn {
   background-color: rgb(84, 209, 84);
@@ -35,7 +37,7 @@ body {
 }
 
 #header {
-  background: #000 url(../images/background-header.jpg) no-repeat;
+  background: #000 no-repeat;
   background-size: cover;
   color: #fff;
   padding-top: 30px;
@@ -67,53 +69,23 @@ body {
   transform: translate(0, -50%);
 }
 
-#how-it-work, #customers, #team, #footer {
-  text-align: center;
+.section {
   padding: 30px 0;
 }
 
-#customers {
-  background-color: rgb(242, 242, 242);
+.section-center {
+  text-align: center;
 }
 
-#customers .container {
-  max-width: 1000px;
-}
-
-#customers .btn {
-  margin-top: 60px;
-  background-color: rgb(220, 220, 220);
-  color: rgb(130, 130, 130);
-}
-
-#customers .btn:hover {
-  margin-top: 60px;
-  background-color: rgb(130, 130, 130);
-  color: rgb(220, 220, 220);
-}
-
-#customers .btn .material-icons {
-  vertical-align: middle;
-  font-size: 16px;
-}
-
-#team {
-  background-color: rgb(84, 209, 84);
-  color: #fff;
-}
-
-#team h2:after {
-  background-color: #fff;
-}
-
-#team .img-box-round {
-  width: 120px;
-  height: 120px;
-}
 
 #footer {
   background-color: rgb(51, 51, 51);
   text-align: left;
+  padding-top: 3px;
+}
+
+#footer img[src="images/logo.png"] {
+  margin-top: 2px;
 }
 
 #footer, #footer a {
