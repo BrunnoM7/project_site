@@ -44,13 +44,13 @@
       <h2>Contato</h2>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris elit sem, 
-        finibus ut leo eget, eleifend sagittis arcu. Aliquam varius eu quam id 
-        placerat.
+        finibus ut leo eget,<br> 
+        eleifend sagittis arcu. Aliquam varius eu quam id placerat.
       </p>
 
       <div class="container">
         <form class="row">
-          <div class="col col-desktop-6">
+          <div class="col col-desktop-5 col-offset-desktop-1">
             <div class="input-control">
               <input id="nome" type="text" name="nome" placeholder="Nome..." required>
               <label for="nome">Nome*</label>
@@ -64,9 +64,11 @@
               <label for="telefone">Telefone</label>
             </div>
           </div>
-          <div class="col col-desktop-6">
-            <textarea id="mensagem" name="mensagem" cols="30" rows="10" placeholder="Mensagem..."></textarea>
-            <label for="mensagem">Mensagem</label>
+          <div class="col col-desktop-5">
+            <div class="input-control">
+              <textarea id="mensagem" name="mensagem" cols="30" rows="10" placeholder="Mensagem..."></textarea>
+              <label for="mensagem">Mensagem</label>
+            </div>
           </div>
           <input type="submit" value="salvar" class="btn orange">
         </form>

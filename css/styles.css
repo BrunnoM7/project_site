@@ -13,6 +13,9 @@ body {
   line-height: 25px;
 }
 
+main {
+  background-clip: border-box;
+}
 
 #header .btn {
   background-color: rgb(84, 209, 84);
