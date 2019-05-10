@@ -40,7 +40,7 @@ main {
 }
 
 #header {
-  background: #000 no-repeat;
+  background: #000 no-repeat fixed;
   background-size: cover;
   color: #fff;
   padding-top: 30px;
