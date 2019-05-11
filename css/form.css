@@ -19,14 +19,6 @@ input:focus, textarea:focus {
     outline: 1px solid #777;
 }
 
-input::placeholder, textarea::placeholder {
-    color:white
-}
-
-input:focus::placeholder, textarea:focus::placeholder {
-    color:#aaa;
-}
-
 .input-control {
     position: relative;
 }
@@ -35,10 +27,12 @@ input:focus::placeholder, textarea:focus::placeholder {
     position: absolute;
     top: 5px;
     left: 10px;
+    opacity: 0;
 }
 
 .input-control input:focus ~ label, .input-control textarea:focus ~ label {
     top: -25px;
     font-size: 12px;
     transition: ease .5s all;
+    opacity: 1;
 }
